@@ -1,0 +1,33 @@
+.div__list {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  margin: 0 16px;
+  position: relative;
+}
+
+.div__list:last-child {
+  margin-bottom: 8px;
+}
+
+.div__input {
+  margin: 0 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.div__p {
+  color: var(--list-item-color);
+  font-size: 16px;
+  font-style: italic;
+  margin-left: 8px;
+}
+
+.del__button {
+  position: absolute;
+  right: 0px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--title-color);
+}

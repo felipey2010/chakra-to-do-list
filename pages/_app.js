@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import AppProvider from "../utils/AppContext";
+import { ColorModeScript } from "@chakra-ui/react";
+import { Chakra } from "../Chakra";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Chakra cookies={pageProps.cookies}>
+      <AppProvider>
+        <ColorModeScript />
+        <Component {...pageProps} />
+      </AppProvider>
+    </Chakra>
+  );
 }
-
-export default MyApp

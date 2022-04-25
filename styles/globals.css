@@ -1,14 +1,43 @@
+:root {
+  --background-color: rgba(192, 192, 192, 0.35);
+  --button-color: black;
+  --button-border-color: #00000042;
+  --button-hover-border-color: #000000f6;
+  --footer-border-top: #eaeaea;
+  --title-color: black;
+  --card-background-color: #f8f8f833;
+  --input-background-color: #fdfdfd6;
+  --add-button-background: rgba(230, 230, 230, 1);
+  --add-button-hover-background: rgba(205, 205, 205, 1);
+  --list-item-color: rgba(47, 47, 47, 1);
+  --link-color: rgba(138, 24, 24, 1);
+  --link-hover-color: rgba(17, 128, 196, 1);
+  --box-shadow-color: #000000a3;
+}
+
+[data-theme="dark"] {
+  --background-color: rgba(0, 0, 0, 0.9);
+  --button-color: whitesmoke;
+  --button-border-color: rgb(184, 182, 182);
+  --button-hover-border-color: #ffffff;
+  --footer-border-top: #ffffff0f;
+  --title-color: white;
+  --card-background-color: rgba(0, 0, 0, 0.2);
+  --input-background-color: #0000000f;
+  --add-button-background: rgba(42, 52, 61, 1);
+  --add-button-hover-background: rgba(34, 41, 47, 1);
+  --list-item-color: rgba(255, 255, 255, 0.85);
+  --link-color: rgba(167, 167, 167, 0.69);
+  --link-hover-color: rgba(17, 128, 196, 1);
+  --box-shadow-color: #010000;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {

@@ -1,0 +1,112 @@
+.main {
+  height: 100%;
+  padding: 4rem 0;
+  margin-top: 15vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.div__button {
+  width: 130px;
+  padding: 8px;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 14px;
+  border-radius: 8px;
+  border: 2px solid var(--button-border-color);
+  transition: all 0.3s ease-in-out;
+  color: var(--title-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 2px solid var(--button-hover-border-color);
+}
+
+.div__card {
+  width: 60%;
+  height: auto;
+  background-color: var(--card-background-color);
+  border: 1px solid var(--button-border-color);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  box-shadow: 2px 0px 6px 0px var(--box-shadow-color);
+}
+
+.div__list__container {
+  width: 100%;
+  height: auto;
+  max-height: 45vh;
+  overflow-y: auto;
+}
+
+.div__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button__finalizado {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  color: var(--title-color);
+  transition: all 0.3s ease-in-out;
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.button__finalizado:hover {
+  color: rgba(255, 0, 0, 0.692);
+}
+
+.div__flex {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.div__input {
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid var(--button-border-color);
+  padding: 12px;
+  margin: 0 8px;
+  background-color: var(--input-background-color);
+  color: var(--title-color);
+}
+
+.add__button {
+  width: 15%;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid var(--button-border-color);
+  cursor: pointer;
+  color: var(--title-color);
+  background-color: var(--add-button-background);
+  transition: all 0.3s ease-in-out;
+}
+
+.add__button:hover {
+  background-color: var(--add-button-hover-background);
+}
+
+.lista__title {
+  font-size: 1.8rem;
+  padding: 4px 18px;
+  margin: 0;
+  color: var(--title-color);
+}
